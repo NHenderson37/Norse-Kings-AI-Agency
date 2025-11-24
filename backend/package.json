@@ -1,0 +1,21 @@
+{
+  "name": "norse-kings-ai-backend",
+  "version": "0.1.0",
+  "description": "Backend API for Norse Kings AI Agency – creator analytics, automation, and AI strategy.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Nicolas Henderson",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
